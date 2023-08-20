@@ -5,6 +5,7 @@ import pandas as pd
 
 application = Flask(__name__)
 app=application
+#postgres://fwvfb_user:rwkgXudN8zPVVUTEp7ZcaQCEqEYkenx3@dpg-cjgsobk1ja0c73chlcj0-a.oregon-postgres.render.com/fwvfb
 dtr_model = pickle.load(open('model/regressor.pkl', 'rb'))
 
 
